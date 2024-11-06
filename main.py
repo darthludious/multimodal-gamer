@@ -121,7 +121,7 @@ if __name__ == "__main__":
         "-m",
         "--model",
         help="Specify the model to use",
-        required=False,
+        required=True,
         default="gpt-4o-mini",
     )
     parser.add_argument(
