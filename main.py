@@ -122,7 +122,7 @@ if __name__ == "__main__":
         "--model",
         help="Specify the model to use",
         required=False,
-        default="gpt-4",
+        default="gpt-4o-mini",
     )
     parser.add_argument(
         "--game",
