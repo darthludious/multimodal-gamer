@@ -112,7 +112,7 @@ def call_api(
     user_prompt = "See the screenshot of the game provide your next action. Only respond with the next action in valid json."
 
     system_prompt = get_system_prompt(game)
-    if model == "gpt-4":
+    if model == "gpt-4o-mini":
 
         system_message = {"role": "system", "content": system_prompt}
         # append the system message to the first index of `messages`
